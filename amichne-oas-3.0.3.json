@@ -1,7 +1,7 @@
 {
   "id": "https://github.com/amichne/openapi",
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "description": "Austin Michne's revision of OAS 3.0.3, to increase root flexibility, for support of partial OAS 3.0.3 documents",
+  "description": "Austin Michne's revision of OAS 3.0.3, to better suit JetBrains IDE integrations",
   "type": "object",
   "required": [
     "openapi"
@@ -550,7 +550,8 @@
     "Discriminator": {
       "type": "object",
       "required": [
-        "propertyName"
+        "propertyName",
+        "mapping"
       ],
       "properties": {
         "propertyName": {
