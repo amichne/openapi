@@ -50,7 +50,7 @@
     "^x-": {
     }
   },
-  "additionalProperties": false,
+  "additionalProperties": true,
   "definitions": {
     "Reference": {
       "type": "object",
