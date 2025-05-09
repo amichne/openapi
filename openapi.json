@@ -1,6 +1,6 @@
 {
   "id": "https://github.com/amichne/openapi",
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Austin Michne's revision of OAS 3.0.3, to better suit JetBrains IDE integrations",
   "type": "object",
   "required": [
